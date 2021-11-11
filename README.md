@@ -73,7 +73,7 @@ cd lab_northwind
 ### Complete Schema
 
 In the creation of the project the schema was created but without any entity.
-Add the Country entity as seen in the following example
+Modify the configuration of lambdaorm.yaml with the following content
 
 ```yaml
 app:
