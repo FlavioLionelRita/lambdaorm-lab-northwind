@@ -414,8 +414,6 @@ returns an order including customer fields, order detail, product and category:
 lambdaorm run -e "Orders.filter(p => p.id == id).include(p => [p.customer.map(p => p.name), p.details.include(p => p.product.include(p => p.category.map(p => p.name)).map(p => p.name)).map(p => [p.quantity, p.unitPrice])])" -d '{""id"": 1}'
 ```
 
-
-
 ### Drop
 
 remove all tables from the schema and delete the state file, mydb-state.json
