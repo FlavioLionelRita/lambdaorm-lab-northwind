@@ -67,7 +67,7 @@ lambdaorm init -w lab_northwind
 position inside the project folder.
 
 ```sh
-cd lab_03
+cd lab_northwind
 ```
 
 ### Complete Schema
